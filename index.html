@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="calc.js"></script>
+    <title>Kalkulator</title>
+</head>
+<body>
+    <div class="calc">
+        <div class="nav">
+            <div class="control">
+                <div class="close">X</div>
+                <div class="minimize">-</div>
+                <div class="maximize">o</div>
+            </div>
+        <div class="title">
+            <div>Basic Mode</div>
+        </div>
+        <div class="menu">M</div>
+    </div>
+    <div class="display" id="hasil"></div>
+    <div class="input">
+        <div class="wrapper">
+            <div class="row">
+                    <div class="square" onclick="calculator.hapus()">C</div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="row">
+                <div class="square" onclick="calculator.tombol(1)">1</div>
+                <div class="square" onclick="calculator.tombol(2)">2</div>
+                <div class="square" onclick="calculator.tombol(3)">3</div>
+                <div class="square" onclick="calculator.tombol('+')">+</div>
+            </div>
+            <div class="wrapper">
+                <div class="row">
+                        <div class="square" onclick="calculator.tombol(4)">4</div>
+                        <div class="square" onclick="calculator.tombol(5)">5</div>
+                        <div class="square" onclick="calculator.tombol(6)">6</div>
+                        <div class="square" onclick="calculator.tombol('-')">-</div>
+                </div>
+            <div class="wrapper">
+                    <div class="row">
+                            <div class="square" onclick="calculator.tombol(7)">7</div>
+                            <div class="square" onclick="calculator.tombol(8)">8</div>
+                            <div class="square" onclick="calculator.tombol(9)">9</div>
+                            <div class="square" onclick="calculator.tombol('*')">*</div>
+            </div>
+          
+            <div class="wrapper">
+                        <div class="row">
+                                <div class="square" onclick="calculator.tombol(0)">0</div>
+                                <div class="square" onclick="calculator.tombol('/')">/</div>
+                                
+            </div>
+            <div class="wrapper">
+                            <div class="row">
+                                    <div class="square" onclick="calculator.ubahDesimal()">.</div>
+                                    <div class="square" onclick="calculator.hitung()">=</div>
+            </div>
+                        </div>
+                    </div>
+                
+    
+</body>
+</html>
